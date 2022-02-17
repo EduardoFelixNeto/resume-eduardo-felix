@@ -3,9 +3,9 @@ body {
 }
 
 header {
-	background: #008B8B;
+	background: linear-gradient(90deg, rgba(246,238,224,1) 0%, rgba(206,225,216,1) 50%, rgba(138,199,222,1) 100%);
 	padding: 20px 0;
-	border-bottom: 5px solid black;
+	border-bottom: 5px solid #fda664;
 }
 h1{
 	display: inline-block;
@@ -30,14 +30,14 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #83563f;
 	font-weight: bold;
 	font-size: 1.5em;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #7FFFD4;
+	color: #fda664;
 }
 .carcara {
 	width:60%;
@@ -55,19 +55,20 @@ nav a:hover {
 	transform: scale(1.2);
 }
 main{
-	background: #20B2AA;
+	background: linear-gradient(90deg, rgba(246,238,224,1) 0%, rgba(206,225,216,1) 50%, rgba(138,199,222,1) 100%);
 }
 .titulo-principal{
 	text-align: left;
 	font-weight: bold;
 	font-size: 4em;
 	margin: 0 0 0.5em;
+	color: #83563f;
 }
 h3{
 	text-align: left;
 	font-size: 3em;
 	margin: 0 0 0.5em;
-	color: #7FFFD4;
+	color: #f04842;
 }
 
 .principal {
@@ -88,19 +89,22 @@ h3{
 }
 .education,.work,.skills,.certificates{
 	width: 100%;
-	border-top: 5px solid black;
+	border-top: 5px solid #fda664;
+	;
 }
 h2{
 	text-align: center;
 	font-size: 2.5em;
 	margin: 1em;
 	font-weight: bold;
+	color: #83563f;
 }
 h4{
 	text-align: center;
 	font-size: 2em;
 	margin: 1em;
 	font-weight: bold;
+	color: #f04842;
 }
 h5{
 	text-align: center;
@@ -111,7 +115,7 @@ h6{
 	text-align: center;
 	font-size: 1em;
 	padding: 1em;
-	border-bottom: 1px solid #000000;
+	border-bottom: 1px solid #fda664;
 }
 .skills p{
 
@@ -122,6 +126,7 @@ h6{
 	padding: 1em;
 	border: 1px solid black;
 	border-radius: 40px 10px;
+	background: ;
 }
 footer{
 	text-align: center;
